@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Weber | Strategic Engineering Leader</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
+        .glass { background: rgba(15, 23, 42, 0.8); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .hero-gradient { background: radial-gradient(circle at top right, rgba(59, 130, 246, 0.15), transparent); }
+        .tech-card { transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); }
+        .tech-card:hover { transform: translateY(-5px); border-color: rgba(59, 130, 246, 0.4); box-shadow: 0 10px 30px -10px rgba(59, 130, 246, 0.2); }
+        .text-glow { text-shadow: 0 0 15px rgba(59, 130, 246, 0.4); }
+        .roadmap-dot { @apply absolute -left-[9px] top-0 w-4 h-4 rounded-full border-2 border-slate-950; }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-200">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 glass">
+        <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+            <span class="font-bold tracking-tighter text-xl text-white">D.WEBER<span class="text-blue-500">_</span></span>
+            <div class="hidden md:flex space-x-8 text-sm font-medium">
+                <a href="#about" class="hover:text-blue-400 transition">About</a>
+                <a href="#experience" class="hover:text-blue-400 transition">Roadmap</a>
+                <a href="#credentials" class="hover:text-blue-400 transition">Technical Authority</a>
+                <a href="#education" class="hover:text-blue-400 transition">Education</a>
+            </div>
+            <a href="mailto:weberld@hotmail.com" class="bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded-lg text-sm transition font-semibold">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="relative pt-32 pb-12 px-6 hero-gradient overflow-hidden">
+        <div class="max-w-5xl mx-auto text-center relative z-10">
+            <div class="inline-block px-3 py-1 bg-blue-500/10 border border-blue-500/20 rounded-full text-blue-400 text-xs font-bold uppercase tracking-widest mb-6">
+                MBA Strategist • Global Infrastructure Leader
+            </div>
+            <h1 class="text-5xl md:text-7xl font-bold text-white mb-6 tracking-tight leading-tight">
+                Commanding Excellence for <span class="text-blue-500 text-glow">Global Enterprises</span>
+            </h1>
+            <p class="text-xl text-slate-400 max-w-3xl mx-auto leading-relaxed mb-10">
+                Strategic technical closer with a 15-year roadmap of evolution—from physical-layer engineering to AI-integrated global command for multi-billion dollar enterprises.
+            </p>
+            
+            <!-- Contact Info Integration -->
+            <div class="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-12 pt-8 pb-4 border-t border-white/5 max-w-2xl mx-auto">
+                <div class="flex items-center space-x-3 text-slate-300 hover:text-blue-400 transition cursor-default">
+                    <div class="p-2 bg-blue-500/10 rounded-lg">
+                        <i data-lucide="phone" class="w-5 h-5 text-blue-500"></i>
+                    </div>
+                    <span class="font-semibold tracking-wide">352-434-2120</span>
+                </div>
+                <div class="flex items-center space-x-3 text-slate-300 hover:text-blue-400 transition">
+                    <div class="p-2 bg-blue-500/10 rounded-lg">
+                        <i data-lucide="mail" class="w-5 h-5 text-blue-500"></i>
+                    </div>
+                    <a href="mailto:weberld@hotmail.com" class="font-semibold tracking-wide">weberld@hotmail.com</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Operational Pillars -->
+    <section id="about" class="py-16 px-6 border-y border-slate-900 bg-slate-950/50">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Pillar 1: Operational Command -->
+                <div class="p-8 rounded-2xl glass border-blue-500/10 border text-center md:text-left">
+                    <div class="w-12 h-12 bg-blue-600/20 rounded-lg flex items-center justify-center mb-6 mx-auto md:mx-0">
+                        <i data-lucide="shield-alert" class="text-blue-500"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3 text-glow">Operational Command</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">Leading authority for global network recovery. Commanding high-stakes P1/P2 incident bridges for multi-billion dollar enterprises to resolve complex failures where vendor support has stalled.</p>
+                </div>
+                <!-- Pillar 2: Automation & Tool Development -->
+                <div class="p-8 rounded-2xl glass border-blue-500/10 border text-center md:text-left">
+                    <div class="w-12 h-12 bg-blue-600/20 rounded-lg flex items-center justify-center mb-6 mx-auto md:mx-0">
+                        <i data-lucide="terminal" class="text-blue-500"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3 text-glow">Automation & Tools</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">Engineering bespoke AI-integrated tools and high-leverage scripting to eliminate operational friction. Converting raw telemetry into predictive insights and actionable business ROI.</p>
+                </div>
+                <!-- Pillar 3: Management Leadership -->
+                <div class="p-8 rounded-2xl glass border-blue-500/10 border text-center md:text-left">
+                    <div class="w-12 h-12 bg-blue-600/20 rounded-lg flex items-center justify-center mb-6 mx-auto md:mx-0">
+                        <i data-lucide="users" class="text-blue-500"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3 text-glow">Management Leadership</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">MBA-credentialed strategist focused on fostering elite talent cultures. Engineering specialized L&D roadmaps and cross-functional immersion to build high-performance engineering teams.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Professional Roadmap -->
+    <section id="experience" class="py-24 px-6">
+        <div class="max-w-4xl mx-auto">
+            <div class="mb-12">
+                <h2 class="text-3xl font-bold text-white flex items-center"><i data-lucide="briefcase" class="mr-3 text-blue-500"></i> Professional Roadmap</h2>
+            </div>
+
+            <div class="relative border-l border-slate-800 ml-3 md:ml-0">
+                
+                <!-- Disney Global Command -->
+                <div class="relative pl-8 mb-16">
+                    <div class="roadmap-dot bg-blue-500 shadow-[0_0_10px_rgba(59,130,246,0.8)]"></div>
+                    <div class="text-blue-400 font-bold text-sm mb-2">JAN 2020 — PRESENT</div>
+                    <h3 class="text-2xl font-bold text-white leading-tight mb-1">Manager, MNS Operations and Major Incident Management</h3>
+                    <div class="text-slate-300 font-medium italic mb-4">The Walt Disney Company (via Capgemini / Atos / Insight Global)</div>
+                    <p class="text-sm text-slate-400 mb-4 leading-relaxed">
+                        As the Manager of Global Network Major Incident Outages for the Disney account, I am the "final stop" for escalations when it matters most. I lead 100+ participant bridges for P1/P2 failures across global enterprise campuses and data centers, balancing technical depth with the ability to maintain clarity when others face tunnel vision. My leadership is rooted in a simple philosophy: managing the stress of global-scale infrastructure so that the customer never has to.
+                    </p>
+                </div>
+
+                <!-- Spectrum Enterprise -->
+                <div class="relative pl-8 mb-16">
+                    <div class="roadmap-dot bg-slate-700"></div>
+                    <div class="text-slate-500 font-bold text-sm mb-2">MAR 2015 — NOV 2019</div>
+                    <h3 class="text-2xl font-bold text-white leading-tight mb-1">Manager, Enterprise Technical Support</h3>
+                    <div class="text-slate-300 font-medium italic mb-4">Spectrum Enterprise</div>
+                    <p class="text-sm text-slate-400 mb-4 leading-relaxed">
+                        Led a high-performance team of 18+ engineers through the resolution of critical enterprise infrastructure outages. My tenure was defined by "Elite Talent Mentorship"—specifically the design and implementation of a custom ISP training lab and a formal technical curriculum. By bridging the gap between theoretical knowledge and production-grade excellence, I enabled my team to provide superior support while maintaining a "permanent resolution" philosophy for even the most obscure multi-vendor protocol failures.
+                    </p>
+                </div>
+
+                <!-- PrivatEyeT LLC -->
+                <div class="relative pl-8 mb-16">
+                    <div class="roadmap-dot bg-slate-800"></div>
+                    <div class="text-slate-500 font-bold text-sm mb-2">MAR 2013 — JAN 2017</div>
+                    <h3 class="text-2xl font-bold text-white leading-tight mb-1">Founder & Principal Consultant</h3>
+                    <div class="text-slate-300 font-medium italic mb-4">PrivatEyeT LLC</div>
+                    <p class="text-sm text-slate-400 mb-4 leading-relaxed">
+                        Built a comprehensive technical consultancy from the ground up, serving as the lead engineer and account executive. I managed the full lifecycle of client infrastructure—researching, designing, and implementing enterprise-grade security perimeters and BCDR (Business Continuity/Disaster Recovery) solutions. My hands-on experience spanned the entire stack, from low-level troubleshooting to top-tier network architecture. This period solidified my ability to "dial in" on technical specifics while maintaining a macro-level business perspective.
+                    </p>
+                </div>
+
+                <!-- CenturyLink -->
+                <div class="relative pl-8 mb-16">
+                    <div class="roadmap-dot bg-slate-800"></div>
+                    <div class="text-slate-500 font-bold text-sm mb-2">JUL 2014 — DEC 2014</div>
+                    <h3 class="text-2xl font-bold text-white leading-tight mb-1">Field Deployment Engineer</h3>
+                    <div class="text-slate-300 font-medium italic mb-4">CenturyLink (via WiseConnect)</div>
+                    <p class="text-sm text-slate-400 mb-4 leading-relaxed">
+                        Pursued this strategic 6-month contract to gain "boots-on-the-ground" mastery of the ISP environment. I operated behind the modem, delivering and restoring mission-critical internet, voice, and video services for residential and SMB clients. From performing physical layer remediation in challenging environments to deploying emerging fiber (FTTx) technologies, this role provided the foundational hands-on experience that launched my career into large-scale ISP management and infrastructure leadership.
+                    </p>
+                </div>
+
+                <!-- M2 Systems -->
+                <div class="relative pl-8 mb-16">
+                    <div class="roadmap-dot bg-slate-900"></div>
+                    <div class="text-slate-600 font-bold text-sm mb-2">JAN 2013 — JUL 2014</div>
+                    <h3 class="text-2xl font-bold text-white leading-tight mb-1">NOC Engineer</h3>
+                    <div class="text-slate-300 font-medium italic mb-4">M2 Systems Corporation</div>
+                    <p class="text-sm text-slate-400 mb-4 leading-relaxed">
+                        Served as the 24/7 technical authority for a nationwide data center footprint, ensuring 99.99% availability for mission-critical transactional systems. I specialized in RHEL kernel tuning and OS-level performance optimization to maintain high-throughput application delivery. By bridging the gap between hardware and software, I executed seamless VMware ESXi migrations and infrastructure refreshes, ensuring that nationwide data services remained resilient under peak loads.
+                    </p>
+                </div>
+
+                <!-- Internship -->
+                <div class="relative pl-8">
+                    <div class="roadmap-dot bg-slate-950 border-slate-800"></div>
+                    <div class="text-slate-700 font-bold text-sm mb-2">AUG 2009 — FEB 2010</div>
+                    <h3 class="text-xl font-bold text-slate-400 leading-tight mb-1">Technical Intern</h3>
+                    <div class="text-slate-500 font-medium italic mb-4">Bytes Bits & Megabytes</div>
+                    <p class="text-sm text-slate-600 leading-relaxed italic">
+                        The foundation: diagnosed hardware configurations, level-one connectivity, and server-side troubleshooting while designing organizational flow to drive client credibility.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Strategic Technical Authority Section -->
+    <section id="credentials" class="py-24 px-6 bg-slate-900/30 border-y border-slate-900">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-20">
+                <h2 class="text-4xl font-bold text-white mb-6 text-glow">Strategic Technical Authority</h2>
+                <p class="text-slate-400 max-w-3xl mx-auto text-lg leading-relaxed">Leadership defined by uncompromising technical depth. Bridging the gap between "Business Strategy" and "Ground Truth" engineering across specialized domains.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Category: Artificial Intelligence -->
+                <div class="tech-card p-8 rounded-2xl glass border border-blue-500/20">
+                    <div class="w-10 h-10 bg-blue-600/20 rounded-lg flex items-center justify-center mb-6">
+                        <i data-lucide="brain-circuit" class="text-blue-500"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-white mb-3">Artificial Intelligence</h4>
+                    <p class="text-xs text-blue-400 font-bold uppercase tracking-widest mb-4">Mastering the Curve</p>
+                    <p class="text-sm text-slate-400 mb-6 leading-relaxed italic">Staying on top of the curve of emerging technology. Not fearing advancements, but mastering them and learning to leverage them for high-stakes business value.</p>
+                    <ul class="text-sm text-slate-300 space-y-2">
+                        <li class="flex items-center"><i data-lucide="check" class="w-4 h-4 mr-3 text-blue-500"></i> AWS Certified AI Practitioner (2026)</li>
+                    </ul>
+                </div>
+
+                <!-- Category: Security Engineering -->
+                <div class="tech-card p-8 rounded-2xl glass border border-slate-800">
+                    <div class="w-10 h-10 bg-red-600/20 rounded-lg flex items-center justify-center mb-6">
+                        <i data-lucide="shield-check" class="text-red-500"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-white mb-3">Security & Resilience</h4>
+                    <p class="text-xs text-red-400 font-bold uppercase tracking-widest mb-4">The Strategic Edge</p>
+                    <p class="text-sm text-slate-400 mb-6 leading-relaxed italic">Hardening the enterprise perimeter to ensure business continuity during high-stakes threat cycles.</p>
+                    <ul class="text-sm text-slate-300 space-y-2">
+                        <li class="flex items-center"><i data-lucide="check" class="w-4 h-4 mr-3 text-red-500"></i> Cisco Specialist: Firepower Security</li>
+                        <li class="flex items-center"><i data-lucide="check" class="w-4 h-4 mr-3 text-red-500"></i> Palo Alto Networks PCNSA</li>
+                    </ul>
+                </div>
+
+                <!-- Category: Core Infrastructure (REFINED) -->
+                <div class="tech-card p-8 rounded-2xl glass border border-slate-800">
+                    <div class="w-10 h-10 bg-green-600/20 rounded-lg flex items-center justify-center mb-6">
+                        <i data-lucide="git-merge" class="text-green-500"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-white mb-3">Core Infrastructure</h4>
+                    <p class="text-xs text-green-400 font-bold uppercase tracking-widest mb-4">The Strategic Edge</p>
+                    <p class="text-sm text-slate-400 mb-6 leading-relaxed italic">The "Ground Truth" knowledge required to command global bridges and optimize carrier-grade transport, enterprise campuses, and datacenters.</p>
+                    <ul class="text-sm text-slate-300 space-y-2">
+                        <li class="flex items-center"><i data-lucide="check" class="w-4 h-4 mr-3 text-green-500"></i> CCNP / CCNA Service Provider</li>
+                        <li class="flex items-center"><i data-lucide="check" class="w-4 h-4 mr-3 text-green-500"></i> CCNP / CCNA Routing & Switching</li>
+                        <li class="flex items-center"><i data-lucide="check" class="w-4 h-4 mr-3 text-green-500"></i> MEF Carrier Ethernet Professional</li>
+                    </ul>
+                </div>
+
+                <!-- Category: Architecture & Design -->
+                <div class="tech-card p-8 rounded-2xl glass border border-slate-800">
+                    <div class="w-10 h-10 bg-purple-600/20 rounded-lg flex items-center justify-center mb-6">
+                        <i data-lucide="layout-template" class="text-purple-500"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-white mb-3">Strategic Design</h4>
+                    <p class="text-xs text-purple-400 font-bold uppercase tracking-widest mb-4">The Strategic Edge</p>
+                    <p class="text-sm text-slate-400 mb-6 leading-relaxed italic">Architecting for scalability and efficiency before the first cable is even provisioned.</p>
+                    <ul class="text-sm text-slate-300 space-y-2">
+                        <li class="flex items-center"><i data-lucide="check" class="w-4 h-4 mr-3 text-purple-500"></i> Cisco Specialist: Data Center Design</li>
+                        <li class="flex items-center"><i data-lucide="check" class="w-4 h-4 mr-3 text-purple-500"></i> AWS Solutions Architect Associate</li>
+                        <li class="flex items-center"><i data-lucide="check" class="w-4 h-4 mr-3 text-purple-500"></i> Cisco Certified Design Associate</li>
+                    </ul>
+                </div>
+
+                <!-- Category: Service Governance -->
+                <div class="tech-card p-8 rounded-2xl glass border border-slate-800">
+                    <div class="w-10 h-10 bg-orange-600/20 rounded-lg flex items-center justify-center mb-6">
+                        <i data-lucide="landmark" class="text-orange-500"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-white mb-3">Service Governance</h4>
+                    <p class="text-xs text-orange-400 font-bold uppercase tracking-widest mb-4">The Strategic Edge</p>
+                    <p class="text-sm text-slate-400 mb-6 leading-relaxed italic">Implementing ITIL-compliant frameworks for high-stakes service delivery and operational continuity.</p>
+                    <ul class="text-sm text-slate-300 space-y-2">
+                        <li class="flex items-center"><i data-lucide="check" class="w-4 h-4 mr-3 text-orange-500"></i> ITIL Foundation Level</li>
+                    </ul>
+                </div>
+
+                <!-- Category: Systems & Voice -->
+                <div class="tech-card p-8 rounded-2xl glass border border-slate-800">
+                    <div class="w-10 h-10 bg-slate-600/20 rounded-lg flex items-center justify-center mb-6">
+                        <i data-lucide="monitor" class="text-slate-500"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-white mb-3">Systems & Voice</h4>
+                    <p class="text-xs text-slate-500 font-bold uppercase tracking-widest mb-4">The Strategic Edge</p>
+                    <p class="text-sm text-slate-400 mb-6 leading-relaxed italic">Managing the complete ecosystem—from AD core to Unified Communications and SIP transport.</p>
+                    <ul class="text-sm text-slate-300 space-y-2">
+                        <li class="flex items-center"><i data-lucide="check" class="w-4 h-4 mr-3 text-slate-500"></i> Microsoft Certified Professional (MCP)</li>
+                        <li class="flex items-center"><i data-lucide="check" class="w-4 h-4 mr-3 text-slate-500"></i> CompTIA Network+</li>
+                        <li class="flex items-center"><i data-lucide="check" class="w-4 h-4 mr-3 text-slate-500"></i> SSCA® SIP Mastery</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-24 px-6 bg-slate-950">
+        <div class="max-w-5xl mx-auto">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-white mb-4 flex items-center justify-center">
+                    <i data-lucide="graduation-cap" class="mr-4 text-blue-500"></i> Academic Background
+                </h2>
+                <p class="text-slate-500">Bridging technical operations and executive business strategy.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- MBA -->
+                <div class="p-8 rounded-2xl glass border border-slate-800">
+                    <div class="text-blue-500 text-xs font-bold uppercase tracking-widest mb-2">Graduated 2024</div>
+                    <h3 class="text-xl font-bold text-white mb-2">Master of Business Administration (MBA)</h3>
+                    <p class="text-slate-400 font-medium">Western Governors University</p>
+                    <p class="text-sm text-slate-500 mt-4 leading-relaxed">Focused on strategic management, high-performance coaching, and bridging the gap between technical operations and executive business objectives.</p>
+                </div>
+                <!-- BASC -->
+                <div class="p-8 rounded-2xl glass border border-slate-800">
+                    <div class="text-blue-500 text-xs font-bold uppercase tracking-widest mb-2">Graduated 2017</div>
+                    <h3 class="text-xl font-bold text-white mb-2">Bachelor of Applied Science (BASc)</h3>
+                    <p class="text-slate-400 font-medium">University of Central Florida</p>
+                    <p class="text-sm text-slate-500 mt-4 leading-relaxed">Management Information Systems (MIS). Developing the technical and organizational foundation for large-scale enterprise systems.</p>
+                </div>
+                <!-- Associate Degrees -->
+                <div class="md:col-span-2 p-8 rounded-2xl glass border border-slate-800 text-center">
+                    <div class="mb-10">
+                        <h3 class="text-2xl font-bold text-white mb-2 text-glow">Associate Degrees</h3>
+                        <p class="text-blue-500 font-bold text-xs uppercase tracking-widest">Seminole State College of Florida</p>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm text-slate-400">
+                        <div class="flex flex-col items-center p-6 rounded-xl bg-slate-900/40 border border-slate-800/50 hover:border-blue-500/30 transition-colors">
+                            <div class="w-10 h-10 bg-blue-500/10 rounded-full flex items-center justify-center mb-4">
+                                <i data-lucide="award" class="w-5 h-5 text-blue-500"></i>
+                            </div>
+                            <span class="font-medium">AS, Network Services Technology</span>
+                        </div>
+                        <div class="flex flex-col items-center p-6 rounded-xl bg-slate-900/40 border border-slate-800/50 hover:border-blue-500/30 transition-colors">
+                            <div class="w-10 h-10 bg-blue-500/10 rounded-full flex items-center justify-center mb-4">
+                                <i data-lucide="award" class="w-5 h-5 text-blue-500"></i>
+                            </div>
+                            <span class="font-medium">AS, Information System Technology</span>
+                        </div>
+                        <div class="flex flex-col items-center p-6 rounded-xl bg-slate-900/40 border border-slate-800/50 hover:border-blue-500/30 transition-colors">
+                            <div class="w-10 h-10 bg-blue-500/10 rounded-full flex items-center justify-center mb-4">
+                                <i data-lucide="award" class="w-5 h-5 text-blue-500"></i>
+                            </div>
+                            <span class="font-medium">AA, General Studies</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 px-6 border-t border-slate-900">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6 text-slate-500 text-sm">
+            <div>© 2026 Daniel Weber, MBA. Strategic Technical Leadership.</div>
+            <div class="flex space-x-6">
+                <a href="https://www.linkedin.com/in/daniel-weber-networking" target="_blank" class="hover:text-blue-500 transition"><i data-lucide="linkedin"></i></a>
+                <a href="mailto:weberld@hotmail.com" class="hover:text-blue-500 transition"><i data-lucide="mail"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
